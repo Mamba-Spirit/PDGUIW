@@ -8,3 +8,4 @@ Others feature can be add in the futur.
 # Purpose
 The P.D.G.U.I.W is just a little project to amuse me and help me improve my skills on the wxWidgets library.
 # Project in progress ...
+Ne vous emballez, ce n'est pas encore terminé ;)
