@@ -6,6 +6,7 @@ You also can delete numbmers in the phone book.
 Others feature can be add in the futur.
 
 # Purpose
-The P.D.G.U.I.W is just a little project to amuse me and help me improve my skills on the wxWidgets library.
+The P.D.G.U.I.W is just a little project to amuse me and help me improve my skills on the wxWidgets library and in creating human-machine interfaces.
+
 # Project in progress ...
 Ne vous emballez, ce n'est pas encore terminé ;)
