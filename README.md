@@ -10,4 +10,4 @@ The P.D.G.U.I.W is just a little project to amuse me and help me improve my skil
 
 # Project in progress ...
 Ne vous emballez, ce n'est pas encore terminé ;)
-Need to manage: length of phone number, The warning on research and much more.
+Need to manage: length of phone number, The warning on research when no case is fill, Manage The case sensitive and much more.
