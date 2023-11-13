@@ -10,4 +10,4 @@ The P.D.G.U.I.W is just a little project to amuse me and help me improve my skil
 
 # Project in progress ...
 Ne vous emballez, ce n'est pas encore terminé ;)
-Need to manage: phone number length, search warning when no box is filled, case-sensitive management and much more.
+Need to manage: phone number length, phone number characteres, search warning when no box is filled, case-sensitive management and much more.
