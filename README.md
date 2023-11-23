@@ -13,6 +13,6 @@ Ne vous emballez, ce n'est pas encore terminé ;)
 Need to manage: 
 * phone number length => Already done ...
 * Phone number characteres => Done
-* Search warning when no box is filled not needed ;)
+* Search warning when no box is filled => not needed ;)
 * Case-sensitive management
 * May be manage the display and much more.
