@@ -14,5 +14,5 @@ Need to manage:
 * phone number length => Already done ...
 * Phone number characteres => Done
 * Search warning when no box is filled => not needed ;)
-* Case-sensitive management
+* Case-sensitive management => For research feature;)
 * May be manage the display and much more.
