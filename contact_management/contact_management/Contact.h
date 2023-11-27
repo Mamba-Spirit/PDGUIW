@@ -1,12 +1,7 @@
 #ifndef CONTACT_H
 #define CONTACT_H
 
-//#include "EvtFramePrincipal.h"
-//#include "FramePrincipal.h"
-//#include "MyApp.h"
-
 #include <wx/log.h>
-//#include "Directory.h"
 
 class Contact
 {
