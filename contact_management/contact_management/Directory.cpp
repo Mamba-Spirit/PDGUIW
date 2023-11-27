@@ -1,5 +1,5 @@
 #include "Directory.h"
-
+#include "Contact.h"
 
 Directory::Directory(){
 }
@@ -73,4 +73,39 @@ wxString Directory::print_search_result(){
 	
 }
 
+
+bool Directory::Get_contact_to_delete(Contact& contact_to_delete, Contact& contact_to_match){
+	
+		bool flag = false;
+		
+		if(contact_to_delete.Get_phone_number() == contact_to_match.Get_phone_number()){
+			
+			flag = true;
+		}
+		else{
+			wxLogMessage("The number that you want to delete does't exist in the directory.");
+		}
+		
+		return flag;
+}
+
+
+bool Directory::To_delete(wxString& phone_number_to_delete){
+
+	bool retour = false;
+    
+    for(wxVector<Contact>::iterator it = m_list_contact.begin(); it != m_list_contact.end(); ++it) {
+        
+        if(it->Get_phone_number() == phone_number_to_delete) {
+    
+            m_list_contact.erase(it);
+            retour = true;
+            break;  // Sortir de la boucle après la suppression
+        }
+    }
+    if (!retour) {
+        wxLogMessage("This number doesn't exist in this directory!");
+    }
+    return retour;
+}
 
