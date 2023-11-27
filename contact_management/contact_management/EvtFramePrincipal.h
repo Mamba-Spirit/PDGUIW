@@ -23,7 +23,8 @@ class EvtFramePrincipal : public FramePrincipal
 		/** Constructor */
 		EvtFramePrincipal( wxWindow* parent );
 	//// end generated class members
-
+		~EvtFramePrincipal();
+		Directory *repertoire = new Directory;
 
 
 
