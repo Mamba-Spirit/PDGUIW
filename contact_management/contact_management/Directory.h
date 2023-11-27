@@ -1,10 +1,6 @@
 #ifndef DIRECTORY_H
 #define DIRECTORY_H
 
-
-//#include "EvtFramePrincipal.h"
-//#include "FramePrincipal.h"
-//#include "MyApp.h"
 #include <wx/vector.h>
 #include "Contact.h"
 //#include <wx/log.h>
@@ -23,7 +19,6 @@ public:
 	wxVector<Contact> Get_Search_result();
 	wxVector<Contact> Get_list_contact();
 	wxVector<Contact> Search(wxVector<Contact>list_contact, const wxString &first_name="", const wxString &last_name="", const wxString &phone_number="");
-	//Get_contact_from_directory(Contact contact);
 	wxVector<Contact> Vider_Vector(wxVector<Contact>search_result);
 	bool Get_contact_to_delete(Contact& contact_to_delete, Contact& contact_to_macth);
 private:
