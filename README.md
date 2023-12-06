@@ -12,4 +12,4 @@ The P.D.G.U.I.W is just a little project to amuse me and help me improve my skil
 Ne vous emballez, ce n'est pas encore terminé ;)
 Need to manage:
 * Case-sensitive management => For research feature;)
-* May be manage the display and more.
+* May be manage the display and more. 
